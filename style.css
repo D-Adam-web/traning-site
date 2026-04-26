@@ -1,0 +1,89 @@
+/*----- Сброс стилей-----*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+/*----- Общие стили -----*/
+
+body {
+    font-family: "Rubik", sans-serif;
+    color: #303030;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*----- Стиль хедера -----*/
+
+
+
+header {
+    background: #2965f1;
+    width: 1440px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.17241;
+    color: #d4d6db;
+    text-align: center;
+    padding: 24px 0;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 1.17241;
+    color: #363940;
+    padding: 30px;
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.57143;
+    color: #363940;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.375;
+    color: #95a1bb;
+}
+
+/*----- Стиль 1-ой секции -----*/
+
+
+.about-us {
+    display: flex;
+    justify-content: flex-start;
+    padding: 250px 30px;
+    max-width: 1400px;
+    max-height: 800px;
+}
+
+.info-us {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.photo {
+    display: flex;
+    min-width: 600px;
+    min-height: 350px;
+    flex-grow: 1;
+}
+
+
+/*----- Стиль 2-ой секции -----*/
+
+.other-info {
+    padding: 50px 30px;
+}
+
+.cities {
+    
+}
+
